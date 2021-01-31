@@ -2,19 +2,19 @@
 <helpItems schema="maml" xmlns="http://msh">
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
     <command:details>
-      <command:name>Build-SitecoreDocker</command:name>
-      <command:verb>Build</command:verb>
-      <command:noun>SitecoreDocker</command:noun>
+      <command:name>Set-LocationPSScript</command:name>
+      <command:verb>Set</command:verb>
+      <command:noun>LocationPSScript</command:noun>
       <maml:description>
-        <maml:para>This script says builds SitecoreDocker images</maml:para>
+        <maml:para>Sets current working directory of executing script and returns directory to set when complete (default: original directory)</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>{{Fill in the Description}}</maml:para>
+      <maml:para>Sets current working directory of executing script and returns directory to set when complete (default: original directory)</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
-        <maml:name>Build-SitecoreDocker</maml:name>
+        <maml:name>Set-LocationPSScript</maml:name>
       </command:syntaxItem>
     </command:syntax>
     <command:parameters />

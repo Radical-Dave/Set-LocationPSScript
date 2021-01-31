@@ -1,23 +1,23 @@
 ---
-external help file: Build-SitecoreDocker-help.xml
-Module Name: Build-SitecoreDocker
+external help file: Set-LocationPSScript-help.xml
+Module Name: Set-LocationPSScript
 online version:
 schema: 2.0.0
 ---
 
-# Build-SitecoreDocker
+# Set-LocationPSScript
 
 ## SYNOPSIS
-This script says hello to the user from VSTS
+Sets current working directory of executing script and returns directory to set when complete (default: original directory)
 
 ## SYNTAX
 
 ```
-Build-SitecoreDocker
+Set-LocationPSScript
 ```
 
 ## DESCRIPTION
-{{Fill in the Description}}
+Sets current working directory of executing script and returns directory to set when complete (default: original directory)
 
 ## EXAMPLES
 
